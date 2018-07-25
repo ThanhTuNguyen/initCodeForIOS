@@ -207,6 +207,7 @@
 				78759DCC20A2E0A400D41E31 /* Sources */,
 				78759DCD20A2E0A400D41E31 /* Frameworks */,
 				78759DCE20A2E0A400D41E31 /* Resources */,
+				7F0B79BED9964398D12662EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -325,6 +326,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7F0B79BED9964398D12662EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-initCodeForIOS/Pods-initCodeForIOS-resources.sh",
+				"${PODS_ROOT}/CoreDragon/Resources/logo.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/logo.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-initCodeForIOS/Pods-initCodeForIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		92BDEA519EE421161BFCA6E9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

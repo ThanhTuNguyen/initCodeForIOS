@@ -20,4 +20,6 @@ target 'initCodeForIOS' do
   
   pod 'RATreeView', '~> 2.1'
 
+  pod 'CoreDragon', '~> 0.1'
+
 end
