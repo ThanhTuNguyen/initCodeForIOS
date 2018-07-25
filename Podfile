@@ -17,5 +17,7 @@ target 'initCodeForIOS' do
     inherit! :search_paths
     # Pods for testing
   end
+  
+  pod 'RATreeView', '~> 2.1'
 
 end
